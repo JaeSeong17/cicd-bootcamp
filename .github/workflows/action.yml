@@ -11,7 +11,7 @@ jobs:
         run: echo "Hello World"
 
       - name: Checkout code
-        uses: actions/chechout#v4 # actions -> 재사용 가능한 작업
+        uses: actions/checkout#v4 # actions -> 재사용 가능한 작업
 
       - name: install deps
         run: npm ci # ci -> clean install -> package-lock.json
